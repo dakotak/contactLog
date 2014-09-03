@@ -14,3 +14,4 @@ $app->get('/contacts', function() use ($app){
 
 });
 
+$app->run();
