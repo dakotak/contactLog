@@ -1,0 +1,18 @@
+{
+	"contactType": "phone, video, supervisedVisit, visit"),
+	"startTime": unixTimeStamp,
+	"endTime": unixTimeStamp,
+	"notes": [
+		{
+			"note": "Sample Note Text",
+			"addTime": unixTimeStamp
+		}
+	],
+	"location": "String",
+	"pickupLocation": "",
+	"dropOffLocation": "",
+	"comment": "string",
+	"supervisor": [
+		{ "name": "Person", "contact": "string" }
+	]
+}
