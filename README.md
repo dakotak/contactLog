@@ -15,4 +15,14 @@ This application will have a web based front end backed by a restful API.
 * AngularJS
 
 ## TODOs
+* Keep working on UI to get something that feels nice.
+* Build API
 
+## UI 
+
+## REST API
+
+### Endpoints
+* /contact
+* /contact/:id
+*/contact/types - Returns a list of all contact types in the database.
