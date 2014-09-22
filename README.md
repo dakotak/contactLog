@@ -10,9 +10,11 @@ This application will have a web based front end backed by a restful API.
 * Run reports to show contact history, frequency, and compliance.
 
 ## Technologies Used or Considered (still planning)
-* PHP (API Backend)
+* PHP
 * Slim Framework
 * AngularJS
+  * AngularUI Router (http://angular-ui.github.io/ui-router/)
+* Bootstrap
 
 ## TODOs
 * Keep working on UI to get something that feels nice.
