@@ -39,6 +39,7 @@ This application will have a web based front end backed by a restful API.
   * deleted: This holds a boolean value that will flag a note as deleted.
 * location: Primary location of the contact.
 * comment: A brief comment on this visit.
+* completed: Boolean value the represents if this entry is complete or if it needs to be completed.
 * __The following properties are specific to certain visit types.__
 * pickupLocation: Short name/description of the location where a pickup occurred I.E. Starbucks on Olson Dr. and Folsom Blvd.
 * dropoffLocation: Short name/description of the location where a dropoff occurred.
