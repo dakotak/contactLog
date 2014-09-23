@@ -8,29 +8,32 @@
 		
 		<!-- Bootstrap CSS-->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
 		
 		<!-- angular.js v1.2.25 -->
 		<script src="js/angular.min.js"></script>
 		<script src="js/angular-route.min.js"></script>
-		<!-- <script src="js/app.js"></script> -->
+		<script src="js/app.js"></script>
 		<script src="js/controllers.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<h1>Contact Log</h1>
-			<h2>Add New Contact</h2>
-			<form >
-				<select class="form-control" name="type">
-					<option>Phone Call</option>
-					<option>Video Chat</option>
-					<option>Supervised Visit</option>
-					<option>Visit</option>
-					<option>Other</option>
-				</select>
-				<input type="submit" class="btn btn-default" />
-			</form>
-		
-		</div><!-- End Body Container -->
+		<!-- Navbar -->
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Contact Log</a>
+        </div>
+
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#reports">Reports</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+
+      </div>
+    </div>
+	
+		<div ng-view></div>
 		
 	</body>
 </html>
